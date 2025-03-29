@@ -1,0 +1,123 @@
+.pdf-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .pdf-container h2 {
+    color: #2c3e50;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: 600;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  .file-upload-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #4361ee;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    margin-bottom: 20px;
+  }
+  
+  .file-upload-btn:hover {
+    background-color: #3a56d4;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(67, 97, 238, 0.3);
+  }
+  
+  .file-upload-btn:active {
+    transform: translateY(0);
+  }
+  
+  .file-name {
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #f1f3f9;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #4b5563;
+    text-align: center;
+  }
+  
+  .base64-output {
+    margin-top: 30px;
+  }
+  
+  .base64-output p {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    background-color: #f8fafc;
+    font-family: monospace;
+    font-size: 14px;
+    resize: vertical;
+    min-height: 120px;
+    color: #4a5568;
+    transition: border 0.3s ease;
+  }
+  
+  textarea:focus {
+    outline: none;
+    border-color: #4361ee;
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+  }
+  
+  .copy-btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #4ade80;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .copy-btn:hover {
+    background-color: #22c55e;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(74, 222, 128, 0.3);
+  }
+  
+  .success-msg {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f0fdf4;
+    border-left: 4px solid #4ade80;
+    color: #166534;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .pdf-container {
+      padding: 20px;
+      margin: 20px;
+    }
+  }
